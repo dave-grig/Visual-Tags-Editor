@@ -1,0 +1,42 @@
+.sidebar {
+    background-color: #fff;
+    position: relative; 
+    display: flex;
+    flex-direction: column;   
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25), 
+              0 2px 2px rgba(0,0,0,0.20), 
+              0 4px 4px rgba(0,0,0,0.15), 
+              0 8px 8px rgba(0,0,0,0.10),
+              0 16px 16px rgba(0,0,0,0.05);
+              height: 100%;
+}
+
+.sidebar__input-list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar__input-list-item {
+    padding: 30px;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar__input--text {
+    width: 40%;
+    display: block;
+  }
+
+.sidebar__label {
+    color: #fff !important;
+    margin-bottom: 10px;
+}
+
+.p {
+    position: absolute;
+}
+

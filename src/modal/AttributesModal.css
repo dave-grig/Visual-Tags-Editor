@@ -1,0 +1,25 @@
+.attributes-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.attributes-modal__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.attribute-modal__attribute-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.attributes-modal__attribute-label {
+    margin: 0 10px;
+}
+
